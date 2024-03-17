@@ -1,0 +1,2 @@
+Week 6:
+Online Pattern Reference at UNC: http://www.cs.unc.edu/~stotts/GOF/hires/patcafso.htm

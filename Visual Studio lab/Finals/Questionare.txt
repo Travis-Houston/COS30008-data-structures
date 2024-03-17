@@ -1,0 +1,35 @@
+5)
+a) How can we construct a tree where all nodes have the same degree?
+-> To construct a tree where all nodes have the same degree, choose a node as the root, and then attach the same number of child nodes to each node in the tree, ensuring that all nodes have the same degree. Repeat this process until the desired tree structure is achieved.
+
+a.1) How can we construct a tree where all subtrees have the same degree?
+-> To construct a tree where all subtrees have the same degree, attach the same number of child nodes to each node in the tree, ensuring that all subtrees have the same degree.
+
+b) What is the difference between l-value and r-value references?
+-> l-value represents an object or function that can be assigned to, while r-value represents a temporary value that does not have persistent memory location.
+
+c) What is a key concept of an abstract data types?
+-> The goal of an abstract data types is breaking down complex problems into smaller ones and solved them by using data structures concepts.
+This method allow users to focus on the operation instead of worrying about how the data is represented and stored in memory.
+
+d) How do we define mutual dependent classes in C++?
+-> Mutual dependent classes can be defined by using a combination of forward declarations and pointers (or references) to the other class.
+
+e) What must a value-based data type define in C++?
+-> Value-based data type must define constructors, assignment operator, destructor, comparison operators, and handle copy and move semantics, while data member visibility is determined by access specifiers.
+
+f) What is an object adapter?
+-> An object adapter allows the interface of an existing class to be used as another interface.
+
+g) What is the difference between copy constructor and assignment operator and how do we guarantee safe operation?
+-> Copy constructor is used to create a new object as a copy of an existing object. Assignment operator, on the other hand, is used to assign the value of an object to another object.
+
+h) What is the best-case, average-case, and worse-case for a lookup in a binary tree?
+-> The best-case complexity for a lookup in a binary tree is O(1), the worst-case complexity is O(n), and the average-case complexity is O(log n).
+
+i) What are reference data members and how do we initialize them? 
+-> A reference to type T can be initialized with an object, function, or implicitly convertible type of T. The reference remains bound to the object throughout its lifetime, and cannot change the reference to another object.
+
+j) You are given n-1 numbers out of n numbers. How do we find the missing number nk,
+1 ≤ k ≤ n, in linear time?
+->To find the missing number nk in an array of length n-1, you can calculate the sum of all n elements using the formula (n * (n + 1)) / 2, subtract the sum of the given (n-1) elements from it, and the result will be the missing number. This approach has a time complexity of O(n).
